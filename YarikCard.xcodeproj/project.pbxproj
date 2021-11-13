@@ -11,6 +11,7 @@
 		12FEEB64273ED54B005F32BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEB63273ED54B005F32BE /* ContentView.swift */; };
 		12FEEB66273ED54C005F32BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FEEB65273ED54C005F32BE /* Assets.xcassets */; };
 		12FEEB69273ED54C005F32BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FEEB68273ED54C005F32BE /* Preview Assets.xcassets */; };
+		12FEEB72273FFB3F005F32BE /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FEEB71273FFB3E005F32BE /* WorkSans-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		12FEEB63273ED54B005F32BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12FEEB65273ED54C005F32BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FEEB68273ED54C005F32BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12FEEB71273FFB3E005F32BE /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		12FEEB73273FFC16005F32BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		12FEEB60273ED54B005F32BE /* YarikCard */ = {
 			isa = PBXGroup;
 			children = (
+				12FEEB73273FFC16005F32BE /* Info.plist */,
+				12FEEB70273FFB1D005F32BE /* Fonts */,
 				12FEEB61273ED54B005F32BE /* YarikCardApp.swift */,
 				12FEEB63273ED54B005F32BE /* ContentView.swift */,
 				12FEEB65273ED54C005F32BE /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				12FEEB68273ED54C005F32BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12FEEB70273FFB1D005F32BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				12FEEB71273FFB3E005F32BE /* WorkSans-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +140,7 @@
 			files = (
 				12FEEB69273ED54C005F32BE /* Preview Assets.xcassets in Resources */,
 				12FEEB66273ED54C005F32BE /* Assets.xcassets in Resources */,
+				12FEEB72273FFB3F005F32BE /* WorkSans-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +286,7 @@
 				DEVELOPMENT_TEAM = X898K49UV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YarikCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +316,7 @@
 				DEVELOPMENT_TEAM = X898K49UV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YarikCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
