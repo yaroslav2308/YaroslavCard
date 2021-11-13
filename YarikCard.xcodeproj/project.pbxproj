@@ -12,6 +12,7 @@
 		12FEEB66273ED54C005F32BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FEEB65273ED54C005F32BE /* Assets.xcassets */; };
 		12FEEB69273ED54C005F32BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FEEB68273ED54C005F32BE /* Preview Assets.xcassets */; };
 		12FEEB72273FFB3F005F32BE /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FEEB71273FFB3E005F32BE /* WorkSans-VariableFont_wght.ttf */; };
+		12FEEB752740053C005F32BE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEEB742740053C005F32BE /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		12FEEB68273ED54C005F32BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12FEEB71273FFB3E005F32BE /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		12FEEB73273FFC16005F32BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		12FEEB742740053C005F32BE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				12FEEB70273FFB1D005F32BE /* Fonts */,
 				12FEEB61273ED54B005F32BE /* YarikCardApp.swift */,
 				12FEEB63273ED54B005F32BE /* ContentView.swift */,
+				12FEEB742740053C005F32BE /* InfoView.swift */,
 				12FEEB65273ED54C005F32BE /* Assets.xcassets */,
 				12FEEB67273ED54C005F32BE /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FEEB64273ED54B005F32BE /* ContentView.swift in Sources */,
+				12FEEB752740053C005F32BE /* InfoView.swift in Sources */,
 				12FEEB62273ED54B005F32BE /* YarikCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

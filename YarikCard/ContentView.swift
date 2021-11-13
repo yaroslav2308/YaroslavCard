@@ -28,10 +28,8 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 30))
                 Divider()
-                RoundedRectangle(cornerRadius: 30)
-                    .fill(Color.white)
-                    .frame(width: 300, height: 40)
-                    .overlay(Text("+7 111 111 11 11"))
+                InfoView(text: "+7-111-111-11-11", imageName: "phone.fill")
+                InfoView(text: "email@gmail.com", imageName: "mail")
                 
             }
         }
@@ -44,3 +42,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().previewDevice("iPhone 13")
     }
 }
+
+
